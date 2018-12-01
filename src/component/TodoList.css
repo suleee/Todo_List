@@ -1,0 +1,79 @@
+form {
+  display: flex;
+  justify-content: center;
+}
+.todoListMain {
+  text-align: center;
+  margin: 50px 0 150px 0;
+}
+.todoListMain .header input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid rgb(255, 255, 255, 0);
+  background-color: white;
+  width: 320px;
+  border-radius: 3px;
+}
+.todoListMain .header button {
+  padding: 10px;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-right: 0px;
+  background-color: #ff2e63;
+  color: white;
+  border: 2px solid #ff2e63;
+  border-radius: 3px;
+}
+.todoListMain .header button:hover {
+  background-color: #cc1442;
+  border: 2px solid #cc1442;
+  cursor: pointer;
+}
+
+.todoListMain ul {
+  padding-left: 0;
+}
+.todoListMain .theList li {
+  color: #333;
+  /* background-color: #53a6ff; */
+  /* color: white; */
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  list-style: none;
+  overflow: auto;
+
+  transition: background-color 0.2s ease-out;
+}
+/* .todoListMain .theList li:hover {
+  background-color: pink;
+} */
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+.deleteBtn {
+  height: 50px;
+}
+/* .theList {
+  margin: 20px 10%;
+} */
+
+.checkbox-con {
+  padding: 20px 0 0 10px;
+}
+.todo-list {
+  padding: 15px 0;
+  background-color: white;
+  border-left: 3px solid #ffa3a3;
+  box-shadow: 7px 5px 6px #dfdfdf7a;
+  margin: 15px 0;
+}
+
+@media only screen and (min-width: 900px) {
+  .theList {
+    /* width: 40%;
+    margin: 0 auto; */
+  }
+}

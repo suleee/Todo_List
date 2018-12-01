@@ -1,0 +1,14 @@
+.App {
+  margin: 50px 0 150px 0;
+}
+.button-box button {
+  margin: 20px;
+  width: 100px;
+  background-color: #17c0a1;
+  border: none;
+}
+.button-box button:hover {
+  margin: 20px;
+  width: 100px;
+  background-color: #118a74;
+}

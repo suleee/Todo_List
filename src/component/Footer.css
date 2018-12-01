@@ -1,0 +1,21 @@
+.footer-con {
+  background-color: #1f2533;
+  position: fixed;
+  bottom: 0;
+  border-top: 1px solid rgb(238, 238, 238);
+}
+.footer {
+  text-align: center;
+}
+.button-one {
+  border-right: 1px solid white;
+}
+.buttons button {
+  margin: 0 5px;
+  background-color: #1f2533;
+  color: white;
+  text-transform: uppercase;
+}
+.buttons {
+  justify-content: center;
+}

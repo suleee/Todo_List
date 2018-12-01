@@ -1,0 +1,30 @@
+body {
+  background: #fafafc;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  padding: 30px 0;
+  background: #1f2533;
+}
+h2 {
+  font-size: 80px;
+  margin: 50px 0;
+}
+p {
+  color: #333;
+}
+#container {
+  display: flex;
+  justify-content: center;
+}
+
+.center {
+  text-align: center;
+}
+.row {
+  width: 100%;
+  margin: 0;
+}
